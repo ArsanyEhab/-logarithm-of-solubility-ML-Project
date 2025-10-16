@@ -42,9 +42,11 @@ Originally compiled by **John S. Delaney**, this dataset contains molecular prop
 
 ## ⚙️ Model Details
 
-| Model | Training MSE | Training R² | Test MSE | Test R² |
-|--------|---------------|-------------|-----------|----------|
-| **Linear Regression** | 1.0075 | 0.7645 | 1.0207 | 0.7892 |
+| Model | Training MSE | Training R² | Test MSE | Test R² | Graph |
+|--------|---------------|-------------|-----------|----------|----------| 
+| **Linear Regression** | 1.0075 | 0.7645 | 1.0207 | 0.7892 | <img width="250" height="250" alt="LR Graph" src="https://github.com/user-attachments/assets/d83ae73b-2916-4b92-9b8d-136cfb36cd93" /> |
+
+
 
 ✅ The model explains **~78% of the variance** in solubility  
 ✅ Shows **good generalization** with close train/test results  
@@ -62,5 +64,6 @@ In future updates, additional regression algorithms will be implemented and comp
 - **Neural Network (Deep Learning)**
 
 Each model will be evaluated using the same metrics (**MSE** and **R²**) to identify the best-performing approach for solubility prediction.
+
 
 
