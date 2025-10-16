@@ -23,8 +23,7 @@ to predict:
 
 The dataset includes molecular descriptors and solubility values (`logS`).
 
-📂 **Data Source:**  
-[Delaney Solubility Dataset](https://github.com/dataprofessor/data/blob/master/delaney_solubility_with_descriptors.csv)  
+📂 **Data Source:** [Delaney Solubility Dataset](https://github.com/dataprofessor/data/blob/master/delaney_solubility_with_descriptors.csv)  
 Originally compiled by **John S. Delaney**, this dataset contains molecular properties computed from SMILES using **RDKit**.
 
 | MolLogP | MolWt | NumRotatableBonds | AromaticProportion | logS |
@@ -63,4 +62,5 @@ In future updates, additional regression algorithms will be implemented and comp
 - **Neural Network (Deep Learning)**
 
 Each model will be evaluated using the same metrics (**MSE** and **R²**) to identify the best-performing approach for solubility prediction.
+
 
