@@ -49,4 +49,18 @@ Originally compiled by **John S. Delaney**, this dataset contains molecular prop
 
 ✅ The model explains **~78% of the variance** in solubility  
 ✅ Shows **good generalization** with close train/test results  
-✅ Provides interpretable feature effects on solubility
+✅ Provides interpretable feature effects on solubility  
+
+---
+
+### 🔮 Future Model Extensions
+
+This project currently uses **Linear Regression** as a baseline model.  
+In future updates, additional regression algorithms will be implemented and compared, such as:
+- **Random Forest Regressor**
+- **XGBoost Regressor**
+- **Support Vector Regressor (SVR)**
+- **Neural Network (Deep Learning)**
+
+Each model will be evaluated using the same metrics (**MSE** and **R²**) to identify the best-performing approach for solubility prediction.
+
